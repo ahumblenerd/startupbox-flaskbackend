@@ -35,7 +35,7 @@ pip install wsgiref==0.1.2
 Or
 
 ```
-Use requirements.txt
+pip install -r requirements.txt
 ```
 
 # Posting to server 
@@ -45,11 +45,11 @@ Sample
 ```
 curl -H "Content-Type: application/json" -X POST -d '{"link1": "http://ahumblenerd.github.io/deltateam/images/arun_latest.jpg","link2": "http://ahumblenerd.github.io/deltateam/images/aravind.jpg"}' http://127.0.0.1:5000/
 ```
-General Sytax
+General Syntax
 ```
 curl -H Content-Type: application/json" -X POST -d '{"link1": url1 ,"link2": url2"}' http://127.0.0.1:5000/
 ```
-Or using postman 
+Or using POSTMAN
 - Set request body to  
 ```
 {
